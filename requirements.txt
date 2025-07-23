@@ -1,3 +1,9 @@
-ultralytics
-streamlit
-opencv-python-headless
+ultralytics==8.1.33         # versión estable de YOLOv8
+opencv-python==4.9.0.80     # compatible con ultralytics y visión por computadora
+streamlit==1.35.0           # para ejecutar la interfaz web
+matplotlib>=3.7.0           # visualización
+pandas>=1.5.3               # manejo de datos tabulares
+Pillow>=9.5.0               # procesamiento de imágenes
+numpy>=1.23.0               # operaciones numéricas
+PyYAML>=6.0                 # carga de configuraciones
+scikit-learn>=1.2.2         # procesamiento de datos y métricas
